@@ -42,7 +42,7 @@ footer { background-color: black; color: rgb(255, 255, 255); display: flex;  wid
 .Equipos {
     display: grid;
     grid-template-columns: repeat(2, 2fr);
-    gap: 20px; /* Espacio entre las cajas */
+    gap: 20px; 
   }
   .Caja {
   
@@ -53,10 +53,20 @@ footer { background-color: black; color: rgb(255, 255, 255); display: flex;  wid
     
     text-align: center }
     
-    /* Estilos adicionales para las imágenes */
+    
     .Caja img {
       max-width: 100%;}
+      .infografia {margin-left: 500px;} 
+/*Css Familia*/
+.Familia { font-size: 30px   ;margin: 2%;  flex-direction: column; display: flex; text-align: center;   ;justify-content: center; font-family: sans-serif; font-size: large }
+.Father {  margin-left: 400px;}
+
+/*Css Frases*/ 
+.Frases {  font-size: 30px   ;margin: 2%;  flex-direction: column; display: flex; text-align: center;   ;justify-content: center; font-family: sans-serif; font-size: large; padding: 20px;
+  border-radius: 10px}
+iframe {margin-left: 650px;}
+.Alonso {margin-left: 500px;}
 
 /*Medias Responsive*/
-@media (max-width: 600px) {.Paginas { flex-direction: column;}  .Seccion-1 {display: flex; flex-direction: column;} .Schumi {order: -1; height: auto; } .Contactos {width: 300px; flex-direction: column; align-items: center;} .Seccion-2 {display: flex; flex-direction: column;}  .uno{ order: 2;} .dos  { order: 1;}
-.dos  {order: 1;} .debut {margin: auto;  } .Equipos {grid-template-columns: 1fr; }} 
+@media (max-width: 600px) {.Paginas { flex-direction: column;}  .Seccion-1 {display: flex; flex-direction: column;} .Schumi {order: -1; height: auto; } footer {width: 100%; flex-direction: column; align-items: center;} .Seccion-2 {display: flex; flex-direction: column;}  .uno{ order: 2;} .dos  { order: 1;}
+.dos  {order: 1;} .debut {margin: auto;  } .Equipos {grid-template-columns: 1fr; } .infografia {margin: auto; width: 100%;} .Father {margin: auto;} .video {width: auto;} .Alonso {margin: auto; width: 50%;}  iframe {margin: auto; width: 300px;} }   
